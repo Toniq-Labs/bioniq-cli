@@ -1,0 +1,26 @@
+{
+  "name": "bioniq-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dfinity/agent": "^0.20.2",
+    "@dfinity/candid": "^0.20.2",
+    "@dfinity/identity": "^0.20.2",
+    "@dfinity/principal": "^0.20.2",
+    "bip39": "^3.1.0",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "conf": "^5.0.0",
+    "inquirer": "^6.5.2"
+  },
+  "bin": {
+    "bioniq": "index.js"
+  }
+}
